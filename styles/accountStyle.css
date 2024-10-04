@@ -75,6 +75,10 @@ img{
 .box-title{
     margin-block: 2rem;
 }
+.box-title-register{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
 input{
     width: 23rem;
     margin: 5px;
@@ -90,8 +94,8 @@ input{
 }
 button{
     width: 8rem;
-    height: 2.6rem;
-    margin: 2rem;
+    height: 2.5rem;
+    margin-top: 2rem;
     color: var(--dark-blue-color);
     border-radius: 9px;
     font-size: medium;
