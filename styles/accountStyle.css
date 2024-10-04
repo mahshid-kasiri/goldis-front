@@ -98,6 +98,15 @@ button{
     cursor: pointer;
     box-shadow: 0px 0px 3px var(--gray-color);
     background-color: var(--white-color);
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+}
+button:hover{
+    background-color: var(--dark-blue-color);
+    color: var(--orange-color);
 }
 .forget-create-div{
     display: grid;
