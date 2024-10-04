@@ -21,7 +21,7 @@
                 <h2 class="box-title-register">ساخت حساب کاربری</h2>
                 <form class="register-form" action="#" method="post">
                     <input type="text" name="user-name" id="user-name" placeholder="نام کاربری" required autofocus>
-                    <input type="text" name="phone-number" id="phone-number" placeholder="شماره تلفن" required>    
+                    <input type="tel" name="phone-number" id="phone-number" placeholder="شماره تلفن" required dir="rtl" minlength="11" maxlength="11">   
                     <input type="password" name="password" id="password" placeholder="رمز عبور" required>
                     <input type="password" name="confirm-password" id="confirm-password" placeholder="تکرار رمز عبور" required>
                     <button type="submit">ثبت نام</button>        
@@ -31,5 +31,7 @@
         </div>
     </main>
     <footer></footer>
+
+    <script src="./js/account.js"></script>
 </body>
 </html>
